@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage[utf8]{lipsum}
+\usepackage{color}
+\usepackage{graphicx}
+\title{\textbf{CSE300 Assignment1 \\
+Introduction to \LaTeX}\\ \textbf{\hugeTarget Enumeration via Euler Characteristic
+Integrals
+}}
+\author{ Madhusudan Basak \\
+Mahmudur Rahman Hera \\
+Student ID: 1505071 }
+
+\begin{document}
+\maketitle
+\vspace{1.5in}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=100]{graphics/buetlogo.png}
+\end{figure}
+\centering Department of Computer Science and Engineering \\
+\centering Bangladesh University of Engineering and Technology \\
+\centering (BUET) \\
+\centering Dhaka 1000 \\
+\centering \date{\today}
+\newpage
+\begin{flushleft}
+\section{Time-dependent equation}
+The form of the Schrödinger equation depends on the physical situation (see below for special cases). The most general form is the time-dependent Schrödinger equation (TDSE), which gives a description of a system evolving with time:
+\end{flushleft}
+\begin{equation}
+   i\hbar \frac{\delta}{\delta t} | \psi (r,t)>=\^{\textbf{H}}|\psi(r,t)>
+   \label{eq:1}
+\end{equation}
+where i is the imaginary unit,$ \hbar$ is the reduced Planck constant which is: $\hbar=\frac{h}{2 \pi}$ , the symbol $\frac{\delta}{\delta t}$ indicates a partial derivative with respect to time t,$ \psi $(the Greek letter psi) is the wave function of the quantum system, r and t are the position vector and time respectively, and $ \^{\textbf{H}} $ is the Hamiltonian operator (which characterises the total energy of the system under consideration).
+\\
+The most famous example is the nonrelativistic Schrödinger equation for a single particle moving in an electric field (but not a magnetic field; see the Pauli equation).
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=300]{graphics/fig5.png}
+    \label{fig:1}
+    
+\end{figure}
+The equation \ref{eq:1} is a typical power series.
+this is fig \ref{fig:1}
+
+\end{document}
